@@ -26,11 +26,23 @@ excuse_array = ["I met a really nice goat",
                 "I met some really nice people ",
                 "I just got into an accident \U0001F62E	(hopefully not. Send me more songs to find out if I am still alive \U0001F601)"]
 
-going_fast_array = ["I went downhill", "I have really strong backwind", "I am on a train (very unlikely)", "I am on a ferry (check my location to see if I am on water)", "I like you and want to help you get more points"]
+going_fast_array = ["I went downhill", 
+                    "I have really strong backwind", 
+                    "I am on a train (very unlikely)", 
+                    "I am on a ferry (check my location to see if I am on water)", 
+                    "I like you and want to help you get more points"]
 
-going_slow_array = [""]
+going_slow_array = ["I can't believe how slow I am",
+                    "I better be called a Tortoise now",
+                    "This isn't happening",
+                    "Did I loose motivation somewhere?",
+                     "I have to rush after this",
+                     "Uphill can be slow sometimes"]
 
-going_normal_array = [""]
+going_normal_array = ["No hurry No lag",
+                     "I represent the majority of the world(it's what I call being normal)",
+                     "How do you define normal?",
+                     "Consistency is the key to success( so is being normal)"]
 
 
 def degree_to_text(degree):
