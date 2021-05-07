@@ -127,8 +127,8 @@ class LocationsHandler:
             if matching_rank_entry == 1:
                 motivation_text = "\U0001F947 You are my favorite DJ at the moment! \U0001F947 \nThank you for your most appreciated support \U0001F618. \n\n"
             else:
-                difference_to_above = leaderboard[matching_rank_entry -
-                                                  2]["total_distance"] - entry_to_find["total_distance"]
+                difference_to_above = round(leaderboard[matching_rank_entry -
+                                                  2]["total_distance"] - entry_to_find["total_distance"], 2)
                 motivation_text = "The person a rank above you accompanied me by {}km more than you. Let's close that gap and make YOU my top DJ! \U0001F4BF \n\n".format(
                     difference_to_above)
             if matching_rank_entry > 10:
